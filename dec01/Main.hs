@@ -34,8 +34,7 @@ part2 :: Int =
   length
     . filter (== 0)
     . scanl wrapAdd 50
-    . concatMap flatten
-    . map parse
+    . concatMap (flatten . parse)
     . lines
     $ input
 
