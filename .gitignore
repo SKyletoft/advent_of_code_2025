@@ -1,6 +1,7 @@
 .envrc
 result
-**.txt
+**/input.txt
 **.o
 **.hi
 **/target/**
+**/Main
